@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, winter, synthwave, bumblebee;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE/Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}

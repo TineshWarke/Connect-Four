@@ -1,0 +1,31 @@
+{
+  "name": "4-in-a-row",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js --turbopack",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.25.3",
+    "dotenv": "^17.2.0",
+    "framer-motion": "^12.23.6",
+    "mongoose": "^8.16.4",
+    "next": "15.4.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "24.0.14",
+    "@types/react": "19.1.8",
+    "daisyui": "^5.0.46",
+    "tailwindcss": "^4",
+    "typescript": "5.8.3"
+  }
+}
