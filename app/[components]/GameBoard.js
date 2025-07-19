@@ -18,7 +18,7 @@ export default function GameBoard({ board, onColumnClick }) {
               onClick={() => onColumnClick(colIndex)}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="w-[80%] aspect-square bg-yellow-200 rounded-full shadow-inner flex justify-center items-center cursor-pointer transition-transform"
+              className="w-[80%] aspect-square bg-yellow-200 hover:bg-yellow-50 rounded-full shadow-inner flex justify-center items-center cursor-pointer transition-transform"
             >
               {cell && (
                 <motion.div
