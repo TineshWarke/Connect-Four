@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js --turbopack",
+    "dev": "node api.js && node server.js --turbopack",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "node api.js && NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
