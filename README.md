@@ -115,9 +115,6 @@ MONGODB_URI=mongodb+srv://your-mongo-uri
 ### 4. Run the App
 
 ```bash
-# Run Socket.IO server
-node server.js
-
 # Start frontend in dev mode
 npm run dev
 ```
